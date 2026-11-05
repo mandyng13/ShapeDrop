@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/arrow.png</File>
+    <File>C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/blue_circle.png</File>
+    <File>C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/red_circle.png</File>
+    <File>C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/red_square.png</File>
+    <File>C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/tile_center.png</File>
+    <File>C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/tile_grey.png</File>
+    <File>C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/tile_left.png</File>
+    <File>C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/tile_right.png</File>
+    <File>C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/tile.png</File>
+    <File>C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/yellow_circle.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File>UI/arrow.png</File>
+    <File>Environment/blue_circle.png</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File>Environment/tile_center.png</File>
+    <File>Environment/tile_grey.png</File>
+    <File>Environment/tile_left.png</File>
+    <File>Environment/tile_right.png</File>
+    <File>Environment/tile.png</File>
+    <File>Environment/yellow_circle.png</File>
+  </DestFiles>
+</SourceFileCollection>

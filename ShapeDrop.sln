@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeDrop", "ShapeDrop\ShapeDrop.csproj", "{5AE77FE5-988B-4D8F-A85E-98AC61C2DDA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLib", "GameLib\GameLib.csproj", "{AC448A18-0220-407E-8073-A125A5691F62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AE77FE5-988B-4D8F-A85E-98AC61C2DDA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE77FE5-988B-4D8F-A85E-98AC61C2DDA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE77FE5-988B-4D8F-A85E-98AC61C2DDA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE77FE5-988B-4D8F-A85E-98AC61C2DDA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC448A18-0220-407E-8073-A125A5691F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC448A18-0220-407E-8073-A125A5691F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC448A18-0220-407E-8073-A125A5691F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC448A18-0220-407E-8073-A125A5691F62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
