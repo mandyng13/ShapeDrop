@@ -1,5 +1,6 @@
 using System;
 using GameLib.Engine;
+using Microsoft.Xna.Framework;
 
 namespace GameLib.Physics;
 
@@ -11,6 +12,9 @@ public abstract class Collider : Component
 {
     public RigidBody RigidBody { get; private set; }
     public Action<Collider> Collided;
+    public float Elasticity;
+    
+    public abstract AABB GetAABB();
     
     public void TriggerCollisionWith(Collider other) => Collided?.Invoke(other);
     
