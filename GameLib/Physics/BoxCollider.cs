@@ -1,4 +1,6 @@
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using Microsoft.Xna.Framework;
 
 namespace GameLib.Physics;
@@ -11,27 +13,45 @@ public class BoxCollider : PolygonCollider
     public override List<Vector2> GetCorners()
     {
         
-        return new List<Vector2>
+        var corners = new List<Vector2>
         {
-            new(Position.X - Size.X / 2, Position.Y - Size.Y / 2),
-            new(Position.X + Size.X / 2, Position.Y - Size.Y / 2),
-            new(Position.X + Size.X / 2, Position.Y + Size.Y / 2),
-            new(Position.X - Size.X / 2, Position.Y + Size.Y / 2)
+            new(-Size.X / 2, -Size.Y / 2),
+            new(Size.X / 2, -Size.Y / 2),
+            new(Size.X / 2, Size.Y / 2),
+            new(-Size.X / 2, Size.Y / 2)
         };
+
+        foreach (var corner in corners)
+        {
+            corner.Rotate(GameObject.Rotation);
+        }
+
+        return corners
+            .Select(corner => corner + Position)
+            .ToList();;
     }
 
     public override AABB GetAABB()
     {
+        var corners = GetCorners();
+
+        float minX = corners[0].X;
+        float maxX = corners[0].X;
+        float minY = corners[0].Y;
+        float maxY = corners[0].Y;
+
+        foreach (var corner in corners)
+        {
+            minX = Math.Min(minX, corner.X);
+            maxX = Math.Max(maxX, corner.X);
+            minY = Math.Min(minY, corner.Y);
+            maxY = Math.Max(maxY, corner.Y);
+        }
+
         return new AABB
         {
-            Min = new Vector2(
-                Position.X - Size.X / 2,
-                Position.Y - Size.Y / 2
-            ),
-            Max = new Vector2(
-                Position.X + Size.X / 2,
-                Position.Y + Size.Y / 2
-            )
+            Min = new Vector2(minX, minY),
+            Max = new Vector2(maxX, maxY),
         };
     }
 }

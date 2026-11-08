@@ -1,11 +1,1 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/arrow.png","C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/bin/DesktopGL/Content/UI/arrow.xnb","TextureProcessor","Texture2DContent",15114,10085,0,1041004
-"C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/blue_circle.png","C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/bin/DesktopGL/Content/Environment/blue_circle.xnb","TextureProcessor","Texture2DContent",1669,25685,0,0075401
-"C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/red_circle.png","C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/bin/DesktopGL/Content/Sprites/red_circle.xnb","TextureProcessor","Texture2DContent",1757,25685,0,0086547
-"C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/red_square.png","C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/bin/DesktopGL/Content/Sprites/red_square.xnb","TextureProcessor","Texture2DContent",791,25685,0,0055301
-"C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/tile_center.png","C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/bin/DesktopGL/Content/Environment/tile_center.xnb","TextureProcessor","Texture2DContent",324,25685,0,0063711
-"C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/tile_grey.png","C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/bin/DesktopGL/Content/Environment/tile_grey.xnb","TextureProcessor","Texture2DContent",924,25685,0,0055697
-"C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/tile_left.png","C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/bin/DesktopGL/Content/Environment/tile_left.xnb","TextureProcessor","Texture2DContent",751,25685,0,0058149
-"C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/tile_right.png","C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/bin/DesktopGL/Content/Environment/tile_right.xnb","TextureProcessor","Texture2DContent",737,25685,0,005816
-"C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/tile.png","C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/bin/DesktopGL/Content/Environment/tile.xnb","TextureProcessor","Texture2DContent",877,25685,0,0057968
-"C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/yellow_circle.png","C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/bin/DesktopGL/Content/Environment/yellow_circle.xnb","TextureProcessor","Texture2DContent",1767,25685,0,0054311

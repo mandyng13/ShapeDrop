@@ -11,6 +11,8 @@ namespace GameLib.Physics;
 /// <param name="Mass"></param>
 public class RigidBody : Component
 {
+    public Vector2 Velocity { get; set; }
+    
     public override void Connect(GameObject gameObject)
     {
         PhysicsWorld.RigidBodies.Add(this);

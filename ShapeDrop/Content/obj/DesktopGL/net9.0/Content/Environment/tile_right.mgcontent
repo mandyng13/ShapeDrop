@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/tile_right.png</SourceFile>
-  <SourceTime>2026-09-18T21:24:58.2138363+02:00</SourceTime>
-  <DestFile>C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/bin/DesktopGL/Content/Environment/tile_right.xnb</DestFile>
-  <DestTime>2026-10-26T23:36:08.0970945+01:00</DestTime>
+  <SourceFile>/Users/mang/Documents/Uni/GamePhysics/ShapeDrop/ShapeDrop/Content/Sprites/tile_right.png</SourceFile>
+  <SourceTime>2026-09-18T22:24:58+02:00</SourceTime>
+  <DestFile>/Users/mang/Documents/Uni/GamePhysics/ShapeDrop/ShapeDrop/Content/bin/DesktopGL/Content/Environment/tile_right.xnb</DestFile>
+  <DestTime>2026-11-07T15:04:34.2818993+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2026-08-14T23:50:10+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

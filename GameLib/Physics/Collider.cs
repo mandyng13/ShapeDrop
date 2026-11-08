@@ -1,6 +1,5 @@
 using System;
 using GameLib.Engine;
-using Microsoft.Xna.Framework;
 
 namespace GameLib.Physics;
 

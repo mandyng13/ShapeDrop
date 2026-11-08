@@ -4,16 +4,16 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/arrow.png</File>
-    <File>C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/blue_circle.png</File>
-    <File>C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/red_circle.png</File>
-    <File>C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/red_square.png</File>
-    <File>C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/tile_center.png</File>
-    <File>C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/tile_grey.png</File>
-    <File>C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/tile_left.png</File>
-    <File>C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/tile_right.png</File>
-    <File>C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/tile.png</File>
-    <File>C:/Users/frede/GP/ShapeDrop/ShapeDrop/Content/Sprites/yellow_circle.png</File>
+    <File>/Users/mang/Documents/Uni/GamePhysics/ShapeDrop/ShapeDrop/Content/Sprites/arrow.png</File>
+    <File>/Users/mang/Documents/Uni/GamePhysics/ShapeDrop/ShapeDrop/Content/Sprites/blue_circle.png</File>
+    <File>/Users/mang/Documents/Uni/GamePhysics/ShapeDrop/ShapeDrop/Content/Sprites/red_circle.png</File>
+    <File>/Users/mang/Documents/Uni/GamePhysics/ShapeDrop/ShapeDrop/Content/Sprites/red_square.png</File>
+    <File>/Users/mang/Documents/Uni/GamePhysics/ShapeDrop/ShapeDrop/Content/Sprites/tile_center.png</File>
+    <File>/Users/mang/Documents/Uni/GamePhysics/ShapeDrop/ShapeDrop/Content/Sprites/tile_grey.png</File>
+    <File>/Users/mang/Documents/Uni/GamePhysics/ShapeDrop/ShapeDrop/Content/Sprites/tile_left.png</File>
+    <File>/Users/mang/Documents/Uni/GamePhysics/ShapeDrop/ShapeDrop/Content/Sprites/tile_right.png</File>
+    <File>/Users/mang/Documents/Uni/GamePhysics/ShapeDrop/ShapeDrop/Content/Sprites/tile.png</File>
+    <File>/Users/mang/Documents/Uni/GamePhysics/ShapeDrop/ShapeDrop/Content/Sprites/yellow_circle.png</File>
   </SourceFiles>
   <DestFiles>
     <File>UI/arrow.png</File>
