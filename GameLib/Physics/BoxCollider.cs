@@ -28,7 +28,7 @@ public class BoxCollider : PolygonCollider
 
         return corners
             .Select(corner => corner + Position)
-            .ToList();;
+            .ToList();
     }
 
     public override AABB GetAABB()

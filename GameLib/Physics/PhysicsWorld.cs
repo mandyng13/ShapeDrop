@@ -28,10 +28,12 @@ public class PhysicsWorld()
             if (pair.A.RigidBody != null && pair.B.RigidBody == null)
             {
                 CollisionSolver.ResolveCollision(pair.A, pair.B);
+                pair.B.TriggerCollisionWith(pair.A);
             }
             else if (pair.B.RigidBody != null && pair.A.RigidBody == null)
             {
                 CollisionSolver.ResolveCollision(pair.B, pair.A);
+                pair.A.TriggerCollisionWith(pair.B);
             }
         }
     }

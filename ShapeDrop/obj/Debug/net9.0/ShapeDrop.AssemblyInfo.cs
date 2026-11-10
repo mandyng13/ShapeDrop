@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShapeDrop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0af3aab86ab5fb7b877fdee1765f9cf4ebb501e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+226afdfc29769fb17bf74156aa2f402e9e23085b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShapeDrop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShapeDrop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
