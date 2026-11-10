@@ -64,6 +64,7 @@ public class LevelEnvironment
         _bounceBallTemplate = new GameObject.Template([
             new SpriteRenderer.Builder(_content.Load<Texture2D>("Environment/blue_circle")).WithScale(SpriteScale).Build(),
             // Todo: Add a Circle collider with the radius of 20 and an Elasticity of 2
+            new CircleCollider { Radius = 20, Elasticity = 2f },
             new BounceBallCollisionEffect(_content.Load<Texture2D>("Environment/yellow_circle")),
         ]);
     }
@@ -91,7 +92,12 @@ public class LevelEnvironment
         var boxColliderWidth = TileSize * width - 1;
         var boxColliderHeight = TileSize * height - 1;
         // Todo: Create the fitting boxCollider
+        var boxCollider = new BoxCollider
+        {
+            Size = new Vector2(boxColliderWidth, boxColliderHeight)
+        };
         // Todo: Add the new boxCollider to the template's components using components.Add();
+        components.Add(boxCollider);
         return new GameObject.Template(components);
     }
 }

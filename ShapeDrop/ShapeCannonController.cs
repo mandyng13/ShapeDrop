@@ -69,7 +69,8 @@ public class ShapeCannonController(GameObject.Template ballTemplate, GameObject.
     {
         projectile.GetComponent<SelfDestroyWhenOffScreen>().OnDestroy += Reload;
         var projectileRigidBody = projectile.GetComponent<RigidBody>();
-        // Todo: add an impulse with the shotStrength and direction to the projectile 
+        // Todo: add an impulse with the shotStrength and direction to the projectile
+        projectileRigidBody.AddImpulse(shotDirection * shotStrength);
     }
 
     private void Reload()

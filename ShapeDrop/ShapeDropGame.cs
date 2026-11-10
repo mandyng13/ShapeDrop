@@ -23,13 +23,17 @@ public class ShapeDropGame() : Core("ShapeDrop", 600, 960)
         var ballTemplate = new GameObject.Template([
             new SpriteRenderer.Builder(Content.Load<Texture2D>("Sprites/red_circle")).WithScale(0.5f).Build(),
             // Todo: Add a rigidbody with the mass of 5
+            new RigidBody { Mass = 5 },
             // Todo: Add a circle collider with a radius of 20
+            new CircleCollider { Radius = 20 },
             new SelfDestroyWhenOffScreen(),
         ]);
         var squareTemplate = new GameObject.Template([
             new SpriteRenderer.Builder(Content.Load<Texture2D>("Sprites/red_square")).WithScale(0.5f).Build(),
             // Todo: Add a rigidbody with the mass of 5
+            new  RigidBody { Mass = 5 },
             // Todo: Add a box collider with a width and height of 40
+            new BoxCollider { Size = new Vector2(40, 40) },
             new SelfDestroyWhenOffScreen(),
         ]);
         var ballCannonTemplate = new GameObject.Template([

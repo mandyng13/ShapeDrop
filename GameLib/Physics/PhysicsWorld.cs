@@ -20,5 +20,19 @@ public class PhysicsWorld()
         {
             g.Update(deltaTime);
         }
+
+        var collisionPairs = CollisionDetection.BroadPhase();
+
+        foreach (var pair in collisionPairs)
+        {
+            if (pair.A.RigidBody != null && pair.B.RigidBody == null)
+            {
+                CollisionSolver.ResolveCollision(pair.A, pair.B);
+            }
+            else if (pair.B.RigidBody != null && pair.A.RigidBody == null)
+            {
+                CollisionSolver.ResolveCollision(pair.B, pair.A);
+            }
+        }
     }
 }
